@@ -1,0 +1,11 @@
+{
+    "profiles": {
+      "RefactAI.Orleans.Silo": {
+        "commandName": "Project",
+        "environmentVariables": {
+          "GITHUB_TOKEN": "your-github-token-here"
+        }
+      }
+    }
+  }
+  

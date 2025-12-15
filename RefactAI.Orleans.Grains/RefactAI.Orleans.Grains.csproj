@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\RefactAI.Orleans.Contracts\RefactAI.Orleans.Contracts.csproj" />
+    <PackageReference Include="System.Threading.Tasks.Dataflow" Version="9.0.10" />
+  <ProjectReference Include="..\RefactAI.Common\RefactAI.Common.csproj" />
+  <ProjectReference Include="..\RefactAI.AI\RefactAI.AI.csproj" />
+  <ProjectReference Include="..\RefactAI.CodeAnalysis\RefactAI.CodeAnalysis.csproj" />
+  <ProjectReference Include="..\RefactAI.Orleans.Contracts\RefactAI.Orleans.Contracts.csproj" />
+
+    <ProjectReference Include="..\RefactAI.Refactor\RefactAI.Refactor.csproj" />
+
+
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
